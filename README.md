@@ -1,4 +1,4 @@
-Iquidus Explorer - 1.6.2
+Iquidus Explorer - <img src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.6.2&x2=0">
 ================
 
 An open source block explorer written in node.js.
