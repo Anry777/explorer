@@ -1,3 +1,9 @@
+1.6.2
+* added youtube link to layout
+* added node map to network view
+* added coinsmarket exchange 
+* fixed rounding on total supply
+
 1.6.1
 * fixed last_txs setting
 * added hashrate_units setting

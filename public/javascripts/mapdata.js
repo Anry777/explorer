@@ -1,0 +1,1 @@
+var mapData = {"US":5,"CA":3,"DE":2,"IE":1,"IN":1,"BR":1,"FI":1,"RU":1,"JP":1};

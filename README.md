@@ -1,18 +1,18 @@
-Iquidus Explorer - 1.6.1
+Iquidus Explorer - 1.6.2
 ================
 
 An open source block explorer written in node.js.
 
 ### See it in action
 
-*  [Jumbucks](http://explorer.getjumbucks.com)
-*  [Sphere](http://sphere.iquidus.io)
-*  [SAR](http://explorer.sarcoin.info)
-*  [Vanillacoin](https://blockchain.vanillacoin.net/)
-*  [Neoscoin](http://explorer.infernopool.com/)  
-*  [C2Chain](http://c2chain.info/)
+*  [ROICoin](http://roi-coin-blockexplorer.roi-coin.com/)
 
 *note: If you would like your instance mentioned here contact me*
+
+### NEW from ROICoin
+
+* node map in network view
+* coinsmarket exchange support
 
 ### Requires
 
@@ -97,6 +97,7 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
     */1 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
     */2 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
     */5 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
+    */30 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/mapgetdata.js > /dev/null 2>&1
 
 ### Wallet
 

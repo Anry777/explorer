@@ -17,6 +17,9 @@ html
     script(src='/vendor/jqplot/plugins/jqplot.barRenderer.min.js')
     script(src='/vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js')
+    script(src='/javascripts/jquery-jvectormap-2.0.3.min.js')
+    script(src='/javascripts/jquery-jvectormap-world-mill.js')
+    script(src='/javascripts/mapdata.js')
     script(src='//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js')  
     script(src='//cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js')
     script(src='//cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.js')
@@ -26,7 +29,7 @@ html
         $('##{active}').addClass('active');
         function update_stats(){   
           $.ajax({url: '/ext/summary', success: function(json){
-            $("#supply").text(json.data[0].supply);
+            $("#supply").text(json.data[0].supply.toFixed());
             $("#difficulty").text(json.data[0].difficulty);
             $("#difficultyHybrid").text(json.data[0].difficultyHybrid);
             $("#hashrate").text(json.data[0].hashrate);
@@ -213,7 +216,7 @@ html
             li.pull-left
               a#youtube-icon(href="https://www.youtube.com/channel/#{settings.youtube}", target='_blank')
                 span.glyphicon.fa.fa-youtube
-     .col-md-4
+      .col-md-4
         ul.nav
           li.text-center(style='margin-left:80px;margin-right:80px;')
             p(style='margin-top:15px;') 

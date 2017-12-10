@@ -1,3 +1,4 @@
+
 var express = require('express')
   , path = require('path')
   , bitcoinapi = require('bitcoin-node-api')
@@ -114,7 +115,7 @@ app.set('locale', locale);
 app.set('display', settings.display);
 app.set('markets', settings.markets);
 app.set('twitter', settings.twitter);
-app.set('facebook', settings.youtube);
+app.set('facebook', settings.facebook);
 app.set('googleplus', settings.googleplus);
 app.set('youtube', settings.youtube);
 app.set('genesis_block', settings.genesis_block);
@@ -156,5 +157,6 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
+
 
 module.exports = app;
