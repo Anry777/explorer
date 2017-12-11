@@ -3,6 +3,7 @@
 * added node map to network view
 * added coinsmarket exchange 
 * fixed rounding on total supply
+* added peersv2.js script to grab peers from remote nodes
 
 1.6.1
 * fixed last_txs setting
