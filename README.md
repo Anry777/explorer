@@ -13,6 +13,8 @@ An open source block explorer written in node.js.
 
 * node map in network view
 * coinsmarket exchange support
+* new Stats section with globabl network hashrate and difficulty historical charts
+* changelog section
 
 ### Requires
 

@@ -77,7 +77,9 @@ block content
   .col-md-12
     .panel.panel-default
       .panel-heading
-        strong #{settings.locale.ex_latest_transactions}
+        strong #{settings.locale.ex_latest_transactions} --  
+        span.glyphicon.glyphicon-warning-sign 
+        strong(style=" color: yellow")  Hard Fork at 25000 , please upgrade to ROIcoin v1.1.0.0
       table#recent-table.table.table-bordered.table-striped
         thead
           tr

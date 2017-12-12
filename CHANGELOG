@@ -4,6 +4,9 @@
 * added coinsmarket exchange 
 * fixed rounding on total supply
 * added peersv2.js script to grab peers from remote nodes
+* added global network hashrate and difficulty under new menu "Stats"
+* added numeral formatting to total supply
+* added changelog section
 
 1.6.1
 * fixed last_txs setting
