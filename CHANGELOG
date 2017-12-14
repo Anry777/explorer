@@ -7,6 +7,8 @@
 * added global network hashrate and difficulty under new menu "Stats"
 * added numeral formatting to total supply
 * added changelog section
+* added block find time ( every 500 blocks ) chart to Stats Page
+* added support for moving average trendlines
 
 1.6.1
 * fixed last_txs setting
