@@ -11,9 +11,15 @@ An open source block explorer written in node.js.
 
 ### NEW from ROICoin
 
+* added historical global network hash chart
+* added historical global difficulty chart
+* made chart(s) resizable
+* explorer version now visible in lower right corner
+* added numeral formatting to coin supply
+* added historical block find time chart
+* fixed tooltip coloring issue
 * node map in network view
 * coinsmarket exchange support
-* new Stats section with globabl network hashrate and difficulty historical charts
 * changelog section
 
 ### Requires

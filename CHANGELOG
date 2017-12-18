@@ -9,6 +9,7 @@
 * added changelog section
 * added block find time ( every 500 blocks ) chart to Stats Page
 * added support for moving average trendlines
+* fixed tooltip issue and made charts resizable
 
 1.6.1
 * fixed last_txs setting
